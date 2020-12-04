@@ -2,14 +2,14 @@ use crate::util;
 
 fn solve<T: AsRef<str>, I: IntoIterator<Item = T>>(inputs: I) -> usize {
     let vec: Vec<T> = inputs.into_iter().collect();
-    solveOne(vec.iter(), 1, 1)
-        * solveOne(vec.iter(), 3, 1)
-        * solveOne(vec.iter(), 5, 1)
-        * solveOne(vec.iter(), 7, 1)
-        * solveOne(vec.iter(), 1, 2)
+    solve_one(vec.iter(), 1, 1)
+        * solve_one(vec.iter(), 3, 1)
+        * solve_one(vec.iter(), 5, 1)
+        * solve_one(vec.iter(), 7, 1)
+        * solve_one(vec.iter(), 1, 2)
 }
 
-fn solveOne(inputs: impl IntoIterator<Item = impl AsRef<str>>, r: usize, d: usize) -> usize {
+fn solve_one(inputs: impl IntoIterator<Item = impl AsRef<str>>, r: usize, d: usize) -> usize {
     inputs
         .into_iter()
         .enumerate()
