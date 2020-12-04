@@ -6,6 +6,8 @@ mod d1p1_report_repair;
 mod d1p2_report_repair;
 mod d2p1_password_philosophy;
 mod d2p2_password_philosophy;
+mod d3p1_toboggan_trajectory;
+mod d3p2_toboggan_trajectory;
 mod util;
 
 fn main() {
