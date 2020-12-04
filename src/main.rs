@@ -8,6 +8,8 @@ mod d2p1_password_philosophy;
 mod d2p2_password_philosophy;
 mod d3p1_toboggan_trajectory;
 mod d3p2_toboggan_trajectory;
+mod d4p1_passport_processing;
+mod d4p2_passport_processing;
 mod util;
 
 fn main() {
