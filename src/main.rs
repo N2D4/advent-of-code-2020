@@ -1,5 +1,6 @@
 #[macro_use]
 extern crate lazy_static;
+extern crate itertools;
 extern crate regex;
 
 mod d1p1_report_repair;
@@ -12,6 +13,8 @@ mod d4p1_passport_processing;
 mod d4p2_passport_processing;
 mod d5p1_binary_boarding;
 mod d5p2_binary_boarding;
+mod d6p1_custom_customs;
+mod d6p2_custom_customs;
 mod util;
 
 fn main() {
