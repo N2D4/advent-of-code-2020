@@ -15,6 +15,8 @@ mod d5p1_binary_boarding;
 mod d5p2_binary_boarding;
 mod d6p1_custom_customs;
 mod d6p2_custom_customs;
+mod d7p1_handy_haversacks;
+mod d7p2_handy_haversacks;
 mod util;
 
 fn main() {
