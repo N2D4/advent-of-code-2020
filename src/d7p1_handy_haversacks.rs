@@ -37,9 +37,9 @@ fn solve(inputs: impl AsRef<str>) -> usize {
         - 1
 }
 
-fn populate_mem<'a, 'b, 'c: 'a + 'b>(
+fn populate_mem<'a>(
     bag: impl AsRef<str>,
-    inputs: &'a HashMap<String, HashSet<impl AsRef<str>>>,
+    inputs: &'a HashMap<String, HashSet<String>>,
     mem: &'a mut HashMap<String, bool>,
 ) -> bool {
     if !mem.contains_key(bag.as_ref()) {

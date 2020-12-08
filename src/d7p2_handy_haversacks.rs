@@ -37,9 +37,9 @@ fn solve(inputs: impl AsRef<str>) -> i64 {
     populate_mem("shinygoldbag", &map, &mut mem) - 1
 }
 
-fn populate_mem<'a, 'b, 'c: 'a + 'b>(
+fn populate_mem<'a>(
     bag: impl AsRef<str>,
-    inputs: &'a HashMap<String, HashMap<impl AsRef<str>, i64>>,
+    inputs: &'a HashMap<String, HashMap<String, i64>>,
     mem: &'a mut HashMap<String, i64>,
 ) -> i64 {
     if !mem.contains_key(bag.as_ref()) {
