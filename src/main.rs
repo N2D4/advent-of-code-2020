@@ -17,6 +17,8 @@ mod d6p1_custom_customs;
 mod d6p2_custom_customs;
 mod d7p1_handy_haversacks;
 mod d7p2_handy_haversacks;
+mod d8p1_handheld_halting;
+mod d8p2_handheld_halting;
 mod util;
 
 fn main() {
