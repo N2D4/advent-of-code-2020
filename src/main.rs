@@ -3,6 +3,8 @@ extern crate lazy_static;
 extern crate itertools;
 extern crate regex;
 
+mod d10p1_adapter_array;
+mod d10p2_adapter_array;
 mod d1p1_report_repair;
 mod d1p2_report_repair;
 mod d2p1_password_philosophy;
