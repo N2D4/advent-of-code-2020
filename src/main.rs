@@ -5,6 +5,8 @@ extern crate regex;
 
 mod d10p1_adapter_array;
 mod d10p2_adapter_array;
+mod d11p1_seating_system;
+mod d11p2_seating_system;
 mod d1p1_report_repair;
 mod d1p2_report_repair;
 mod d2p1_password_philosophy;
