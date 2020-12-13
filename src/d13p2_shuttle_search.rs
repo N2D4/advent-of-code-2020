@@ -5,7 +5,6 @@ fn solve(buses: impl IntoIterator<Item = (i128, i128)>) -> i128 {
     buses
         .into_iter()
         .fold1(|(a, b), (c, d)| {
-            println!("{:?} {:?}", (a, b), (c, d));
             (
                 a * c,
                 (0..c)
