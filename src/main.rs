@@ -9,6 +9,8 @@ mod d11p1_seating_system;
 mod d11p2_seating_system;
 mod d12p1_rain_risk;
 mod d12p2_rain_risk;
+mod d13p1_shuttle_search;
+mod d13p2_shuttle_search;
 mod d1p1_report_repair;
 mod d1p2_report_repair;
 mod d2p1_password_philosophy;
