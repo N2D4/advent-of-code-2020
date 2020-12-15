@@ -16,7 +16,8 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: test
-  test:
+
+  test-release:
     name: Test Suite - Release
     runs-on: ubuntu-latest
     steps:
