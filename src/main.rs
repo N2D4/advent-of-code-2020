@@ -15,6 +15,8 @@ mod d14p1_docking_data;
 mod d14p2_docking_data;
 mod d15p1_rambunctious_recitation;
 mod d15p2_rambunctious_recitation;
+mod d16p1_ticket_translation;
+mod d16p2_ticket_translation;
 mod d1p1_report_repair;
 mod d1p2_report_repair;
 mod d2p1_password_philosophy;
