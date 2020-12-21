@@ -19,6 +19,8 @@ mod d16p1_ticket_translation;
 mod d16p2_ticket_translation;
 mod d17p1_conway_cubes;
 mod d17p2_conway_cubes;
+mod d18p1_operation_order;
+mod d18p2_operation_order;
 mod d1p1_report_repair;
 mod d1p2_report_repair;
 mod d2p1_password_philosophy;
