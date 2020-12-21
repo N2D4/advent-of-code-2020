@@ -49,5 +49,5 @@ fn test_example() {
 fn test() {
     let input = util::read_input("d18_operation_order.txt");
 
-    assert_eq!(input.lines().map(|l| solve(l)).sum::<i64>(), 855438643439);
+    assert_eq!(input.lines().map(|l| solve(l)).sum::<i64>(), 7293529867931);
 }
